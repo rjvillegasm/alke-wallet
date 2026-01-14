@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(120deg, #1f49d46a 0%, #c860bc84 100%);
+    
+}
+
+
+header h2 {
+    color: rgb(43, 0, 128);
+
+}
+
+footer {
+    color: rgb(43, 0, 128);
+}
+
+.container-principal {
+    background: rgba(255, 255, 255, 0.583);
+    border: none;
+
+}
+
+.saldo-container {
+    background: linear-gradient(120deg, #1f49d4df 0%, #c860bcc3 100%);
+    color: white;
+    border: none;
+}
+
+.saldo-monto {
+    color: white;
+}
+
+.card {
+    
+    border: none;
+}
+
+
+.btn-menu {
+    background: linear-gradient(120deg, #1f49d46a 0%, #c860bc84 100%);
+    color: rgb(43, 0, 128);
+    border: none;
+    border-radius: 0.75rem;
+    padding: 5px;
+}
+
+.btn-menu:hover {
+    background: linear-gradient(120deg, #1f49d4cc 0%, #c860bccc 100%);
+    color: white;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
