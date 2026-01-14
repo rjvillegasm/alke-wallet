@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Enviar Dinero | Alke Wallet</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar nav-purple navbar-expand-lg navbar-dark rounded-bottom-4  w-75 mx-auto">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alke Wallet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="deposit.html">Depositar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sendmoney.html">Enviar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="transactions.html">Movimientos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    </div>
+
+    <section class="container-sm container-principal mt-2 rounded-5 py-3 ">
+
+        <!-- card para saldo -->
+        <div class="saldo-container card shadow  rounded-4 mb-4  text-center ">
+
+            <h5 class="card-title mt-2">Saldo disponible</h5>
+            <h2 class="text-clear">$60.000</h2>
+
+        </div>
+
+        <!-- primer card-->
+        <div class=" send-card card mt-2 rounded-5 p-3">
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 mx-auto">
+
+                    <h3 class=" login-tittle text-center mb-4">Enviar dinero</h3>
+                    
+                    <form action="transaccions.html" method="get">
+                        <div class="mb-3">
+                            <label for="recipient" class="form-label">Destinatario:</label>
+                            <input type="text" class="form-control" id="recipient" placeholder="Ingrese nombre"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="account" class="form-label">Número de cuenta:</label>
+                            <input type="text" class="form-control" id="account" placeholder="Ingrese número de cuenta"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="account" class="form-label">Email:</label>
+                            <input type="text" class="form-control" id="account" placeholder="Ingrese email del destinatario"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="amount" class="form-label">Monto:</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" id="amount" placeholder="0" step="1"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="description" class="form-label">Description (opcional):</label>
+                            <textarea class="form-control" id="description" rows="3"
+                                placeholder="Ej: cuenta supermercado"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-menu w-100">Enviar</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- segundo card -->
+        <div class="recientes-card card mt-2 rounded-5 p-3 mt-3" >
+
+            <div class="row justify-content-left">
+                <div class="col-12 col-md-8 col-lg-6">
+
+                    <h5 class=" login-tittle  mb-4">Destinatarios recientes</h5>
+
+                    
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                            <div class="bg-primary text-white rounded-circle me-3"
+                                style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                                JD</div>
+                            <div>
+                                <div>Juan Perez</div>
+                                <small class="text-muted">****1234</small>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                            <div class="bg-success text-white rounded-circle me-3"
+                                style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                                SM</div>
+                            <div>
+                                <div>Sandra Millar</div>
+                                <small class="text-muted">****5678</small>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                            <div class="bg-warning text-white rounded-circle me-3"
+                                style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                                RJ</div>
+                            <div>
+                                <div>Raúl González</div>
+                                <small class="text-muted">****9012</small>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-bottom text-center mt-2">
+            <p> &copy; 2026 Alke Wallet. Todos los derechos reservados. </p>
+        </div>
+
+    </footer>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

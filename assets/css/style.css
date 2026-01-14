@@ -12,6 +12,9 @@ header h2 {
 footer {
     color: rgb(43, 0, 128);
 }
+.navbar.nav-purple {
+    background: #5e27c4d8;
+}
 
 .container-principal {
     background: rgba(255, 255, 255, 0.583);
@@ -61,8 +64,8 @@ footer {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.form-check-input:hover{
-background: rgba(87, 8, 124, 0.638);
+.form-check-input:hover {
+    background: rgba(87, 8, 124, 0.638);
 }
 
 .text-menu {
