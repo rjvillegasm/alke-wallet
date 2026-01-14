@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login | Alke Wallet</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-sm login-card mt-2 rounded-5 py-3">
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <h2 class=" login-tittle text-center mb-4">¡Bienvenido!</h2>
+                <h4 class=" login-tittle text-center mb-4">Iniciar sesión</h4>
+
+                <form action="menu.html" method="get">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="Ingrese su password"
+                            required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check-label" for="remember">Recordarme</label>
+                    </div>
+                    <button type="submit" class="btn btn-menu w-100 mb-3">Ingresar</button>
+                    <div class="text-center">
+                        <a href="#" class="text-decoration-none text-menu">¿Olvidó su contraseña?</a>
+                    </div>
+                </form>
+
+                <div class="text-center">
+                    <small class="text-muted">¿Aún no eres cliente? <a href="#"
+                            class="text-decoration-none text-menu">Registrase</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-bottom text-center mt-2">
+            <p> &copy; 2026 Alke Wallet. Todos los derechos reservados. </p>
+        </div>
+
+    </footer>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
