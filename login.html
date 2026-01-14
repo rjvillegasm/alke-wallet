@@ -24,49 +24,43 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6">
 
-                <div class="wallet-icon">💳</div>
                 <h2 class=" login-tittle text-center mb-4">¡Bienvenido!</h2>
                 <h4 class=" login-tittle text-center mb-4">Iniciar sesión</h4>
 
+                <form action="menu.html" method="get">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="Ingrese su password"
+                            required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check-label" for="remember">Recordarme</label>
+                    </div>
+                    <button type="submit" class="btn btn-menu w-100 mb-3">Ingresar</button>
+                    <div class="text-center">
+                        <a href="#" class="text-decoration-none text-menu">¿Olvidó su contraseña?</a>
+                    </div>
+                </form>
 
-
+                <div class="text-center">
+                    <small class="text-muted">¿Aún no eres cliente? <a href="#"
+                            class="text-decoration-none text-menu">Registrase</a></small>
+                </div>
             </div>
-        </div>
-
-
-        <form action="menu.html" method="get">
-            <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="remember">
-                <label class="form-check-label" for="remember">Recordarme</label>
-            </div>
-            <button type="submit" class="btn btn-menu w-100 mb-3">Login</button>
-            <div class="text-center">
-                <a href="#" class="text-decoration-none">Forgot password?</a>
-            </div>
-        </form>
-        <hr class="my-4">
-        <div class="text-center">
-            <small class="text-muted">¿Aún no eres cliente? <a href="#"
-                    class="text-decoration-none">Registrase</a></small>
         </div>
     </div>
-
-
+    
     <footer>
         <div class="footer-bottom text-center mt-2">
             <p> &copy; 2026 Alke Wallet. Todos los derechos reservados. </p>
         </div>
 
     </footer>
-
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

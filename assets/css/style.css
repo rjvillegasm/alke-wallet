@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(120deg, #1f49d46a 0%, #c860bc84 100%);
-    
+
 }
 
 
@@ -16,7 +16,8 @@ footer {
 .container-principal {
     background: rgba(255, 255, 255, 0.583);
     border: none;
-
+    max-width: 550px;
+    min-width: 400px;
 }
 
 .saldo-container {
@@ -30,8 +31,18 @@ footer {
 }
 
 .card {
-    
+
     border: none;
+}
+
+.login-card {
+    background: white;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.login-tittle {
+    color: rgb(43, 0, 128);
 }
 
 
@@ -48,4 +59,12 @@ footer {
     color: white;
     transform: scale(1.02);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form-check-input:hover{
+background: rgba(87, 8, 124, 0.638);
+}
+
+.text-menu {
+    color: rgb(43, 0, 128);
 }
