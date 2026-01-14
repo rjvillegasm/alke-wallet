@@ -12,7 +12,7 @@ header h2 {
 footer {
     color: rgb(43, 0, 128);
 }
-.nav-purple {
+.navbar.nav-purple {
     background: #5e27c4d8;
 }
 
