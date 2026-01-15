@@ -13,24 +13,35 @@
 
     <!--Estilos-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- fuente nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
+    <nav class="navbar nav-purple navbar-expand-lg navbar-dark rounded-bottom-4  w-75 mx-auto">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alke Wallet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="deposit.html">Depositar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sendmoney.html">Enviar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="transactions.html">Movimientos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <section class="container-sm container-principal   mt-2 rounded-5 py-3 " >
+    <section class="container-sm container-principal   mt-2 rounded-5 py-3 ">
 
         <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-lg-6">
-
-                <header>
-
-                    <div class="header-container card shadow  rounded-4 mb-4 mt-2 ">
-                        <h2 class="text-center mb-3 mt-3"> Menú principal </h2>
-                    </div>
-                </header>
-
+            <div class="col-12">
 
                 <div class="saldo-container card shadow  rounded-4 mb-4  text-center ">
 
@@ -41,6 +52,9 @@
 
                 <div class="card shadow rounded-4 ">
                     <div class="card-body ">
+                        <div class="header-container  rounded-4 mb-4 mt-2 ">
+                            <h4 class="text-center login-tittle mb-3 mt-3"> Menú principal </h4>
+                        </div>
 
                         <div class="d-grid gap-3 ">
                             <a href="deposit.html" class="btn btn-menu mt-2">Depositar</a>
