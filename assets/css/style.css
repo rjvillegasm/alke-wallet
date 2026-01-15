@@ -1,7 +1,7 @@
 /* Fondo degradado utilizado en toda las pantallas */
 body {
     background: linear-gradient(120deg, #1f49d46a 0%, #c860bc84 100%);
-
+    font-family: 'Nunito', sans-serif;
 }
 
 /* Footer utilizado en todas las pantallas */
@@ -46,6 +46,18 @@ footer {
 
 .login-tittle {
     color: rgb(43, 0, 128);
+}
+
+h2.login-tittle-big {
+    color: rgb(80, 17, 173);
+    text-shadow: 2px 2px 4px rgba(200, 96, 188, 0.795);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Quicksand','Nunito', 'sans-serif';
+    font-weight: 700;
 }
 
 /* Botones utilizado en el menú inicial  */
