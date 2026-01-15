@@ -1,14 +1,17 @@
+
+/* Fondo degradado utilizado en toda las pantallas */
 body {
     background: linear-gradient(120deg, #1f49d46a 0%, #c860bc84 100%);
 
 }
 
-
+/* Título principal */
 header h2 {
     color: rgb(43, 0, 128);
 
 }
 
+/* Footer utilizado en todas las pantallas */
 footer {
     color: rgb(43, 0, 128);
 }
@@ -23,6 +26,7 @@ footer {
     min-width: 400px;
 }
 
+/* Container con ek saldo utilizado en multiples pantallas */
 .saldo-container {
     background: linear-gradient(120deg, #1f49d4df 0%, #c860bcc3 100%);
     color: white;
@@ -38,6 +42,7 @@ footer {
     border: none;
 }
 
+/* Card utilizado en la pantalla login */
 .login-card {
     background: white;
     max-width: 500px;
@@ -48,7 +53,7 @@ footer {
     color: rgb(43, 0, 128);
 }
 
-
+/* Botoanes utilizado en el menú inicial  */
 .btn-menu {
     background: linear-gradient(120deg, #1f49d46a 0%, #c860bc84 100%);
     color: rgb(43, 0, 128);
@@ -70,4 +75,28 @@ footer {
 
 .text-menu {
     color: rgb(43, 0, 128);
+}
+
+/* Botón accionable ubicado en varios card */
+.btn-purple {
+    background: rgba(87, 8, 124, 0.76);
+    border: none;
+    color: white;
+}
+
+.btn-purple:hover {
+    background: rgba(46, 18, 157, 0.842);
+    color: white;
+}
+
+/* Botones filtro ubicados en transacciones recientes*/
+.btn-filter {
+    background-color: #3643bfd6;
+    color: white;
+    border: none;
+}
+
+.btn-check:checked + .btn-filter {
+    background-color: #5a32a3;
+    color: white;
 }
