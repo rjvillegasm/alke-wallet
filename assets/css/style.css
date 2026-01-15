@@ -17,6 +17,7 @@ footer {
 }
 .navbar.nav-purple {
     background: #5e27c4d8;
+    min-width: 500px;
 }
 
 .container-principal {
@@ -53,7 +54,7 @@ footer {
     color: rgb(43, 0, 128);
 }
 
-/* Botoanes utilizado en el menú inicial  */
+/* Botones utilizado en el menú inicial  */
 .btn-menu {
     background: linear-gradient(120deg, #1f49d46a 0%, #c860bc84 100%);
     color: rgb(43, 0, 128);
@@ -67,6 +68,12 @@ footer {
     color: white;
     transform: scale(1.02);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* form check */
+.form-check-input:checked {
+    background-color: #6f42c1;
+    border-color: #3c1b79;
 }
 
 .form-check-input:hover {
